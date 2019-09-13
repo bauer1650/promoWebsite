@@ -1,0 +1,30 @@
+/* Table */
+#firstTable
+{
+    border-style: groove;
+    border-color: hotpink;
+}
+/* Navigation Bar */
+/* When we have class= we use the . in CSS */
+.topNav
+{
+    background-color: fuchsia;
+    overflow: hidden; /* Addresses errors with sizing */
+}
+/* Style the links inside the navbar */
+.topNav a
+{
+    float: middle;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    padding: 18px 16px;
+    font-size: 25px;
+    text-decoration: none;
+}
+/* Change the color of links on hover */
+.topNav a:hover
+{
+    background-color: blueviolet;
+    color: fuchsia;
+}
